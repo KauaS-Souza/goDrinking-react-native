@@ -7,7 +7,7 @@ import { styles } from "./style";
 export const AvailableSizes = () =>{
     
     return(
-        <View style={styles.containerAvalibleSizes}>
+        <View style={styles.containerAvailibleSizes}>
 
             <Text style={styles.textTitle}>Tamanhos <Text style={styles.textHighlight}>Disponíveis</Text></Text>
             
@@ -16,7 +16,7 @@ export const AvailableSizes = () =>{
                 <CardSize image={can} amount={"350"} measure={"ml"}/>
                 <CardSize image={can} amount={"429"} measure={"ml"}/>
                 <CardSize image={can} amount={"609"} measure={"ml"}/>
-                <CardSize image={bottle} amount={"1.5"} measure={"L"}/>
+                <CardSize image={bottle} amount={"1,5"} measure={"L"}/>
                 <CardSize image={bottle} amount={"2"} measure={"L"}/>
             </ScrollView>
 

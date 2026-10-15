@@ -4,8 +4,8 @@ import { fonts } from "../../themes/fonts";
 import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
-    containerAvalibleSizes:{
-        gap: 20,
+    containerAvailibleSizes:{
+        gap: 10,
     },
     textTitle: {
         fontSize: 25,
@@ -20,6 +20,6 @@ export const styles = StyleSheet.create({
         color: colors.colorHotDrink,
     },
     scrollView:{
-        gap: 15,
+        gap: 10,
     },
 })

@@ -15,7 +15,7 @@ export const styles = StyleSheet.create({
         fontFamily: fonts.fontBody,
         fontSize: 30,
         textAlign: "center",
-        fontWeight: 700,
+        fontWeight: "700",
         color: colors.colorWhite,
     }
 });

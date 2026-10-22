@@ -1,10 +1,12 @@
-import { View, Text, Image } from "react-native";
+import { View, Text, Image, ScrollView } from "react-native";
 import { fonts } from "../../themes/fonts";
 import logo from '../../assets/images/logo.png'
 import { OurOffers } from "../../components/OurOffers";
 import { styles } from "./style";
 import { useFonts } from "expo-font";
 import { AvailableSizes } from "../../components/AvailableSizes";
+import { CardProduct } from "../../components/CardProduct";
+import { OurHighlights } from "../../components/OurHighlights";
 
 export const HomeScreen = () => {
 
@@ -13,7 +15,7 @@ export const HomeScreen = () => {
     });
 
     return(
-        <View style={styles.containerHomeScreen}>
+        <ScrollView contentContainerStyle={styles.containerHomeScreen}>
 
             <Image source={logo} style={styles.logoHome}/>
 
@@ -21,7 +23,9 @@ export const HomeScreen = () => {
 
             <AvailableSizes />
 
-        </View>
+            <OurHighlights />
+
+        </ScrollView>
     );
 
 }

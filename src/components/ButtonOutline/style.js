@@ -14,7 +14,7 @@ export const styles = StyleSheet.create ({
 
     btnTextOutline:{
         fontSize: 30,
-        fontWeight: 700,
+        fontWeight: "700",
         textAlign: "center",
         color: colors.colorCyan,
     }

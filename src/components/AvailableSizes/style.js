@@ -15,7 +15,7 @@ export const styles = StyleSheet.create({
     },
     textHighlight:{
         fontSize: 25,
-        fontWeight: 700,
+        fontWeight: "700",
         fontFamily: fonts.fontTitle,
         color: colors.colorHotDrink,
     },

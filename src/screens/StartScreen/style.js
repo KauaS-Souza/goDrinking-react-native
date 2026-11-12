@@ -17,5 +17,4 @@ export const styles = StyleSheet.create({
         color: colors.colorGray,
         fontFamily: fonts.fontBody,
     },
-
 })
